@@ -1,0 +1,31 @@
+# Virtual environment — never copy into the image
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Test scripts
+test_phase2.py
+tests/
+
+# Results / generated graphs
+results/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs (not needed at runtime)
+README.md
+docker-compose.yml

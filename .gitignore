@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Trained model artifacts (large binaries - regenerate with train_model.py)
+model/model.pkl
+model/scaler.pkl
+
+# Keep metadata in version control so structure is visible
+# model/metadata.json  ← intentionally NOT ignored
+
+# Results / generated outputs
+results/*.png
+results/*.csv
+results/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
